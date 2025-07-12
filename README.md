@@ -8,14 +8,12 @@ This application allows you to easily view all the characters (glyphs) included 
 
 **You can try the application here:**
 
-**[https://<your-github-username>.github.io/<your-repository-name>/](https://<your-github-username>.github.io/<your-repository-name>/)**
+**[https://toktaro.github.io/FontGlyphChecker/](https://toktaro.github.io/FontGlyphChecker/)**
 
-*Please replace the link above with your actual GitHub Pages URL after deployment.*
 
 ## Screenshot
 
-![App Screenshot](./screenshot.png)
-*Please replace this with an actual screenshot of the application.*
+![App Screenshot](screenshot.png)
 
 ## Features
 
