@@ -29,11 +29,6 @@ This application allows you to easily view all the characters (glyphs) included 
 1.  Clone this repository or download the files.
 2.  Open the `index.html` file in your web browser.
 
-For more stable performance, it is recommended to run a simple local web server.
-```bash
-python3 -m http.server
-```
-Then, open `http://localhost:8000` in your browser.
 
 ## Technologies Used
 
