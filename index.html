@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>フォントグリフチェッカー</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Font Glyph Checker</h1>
+        <p class="version">ver.Beta</p>
+    </header>
+    <div id="drop-zone">
+        <p>フォントファイルをここにドラッグ＆ドロップするか、クリックしてファイルを選択してください。</p>
+        <input type="file" id="font-file" accept=".ttf, .otf, .woff, .woff2">
+    </div>
+    <div id="font-info"></div>
+    <div id="controls">
+        <button id="copy-button">クリップボードにコピー</button>
+        <button id="download-button">テキストファイルとしてダウンロード</button>
+    </div>
+    <div id="glyph-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/opentype.js@latest/dist/opentype.min.js"></script>
+    <script src="script.js"></script>
+    <footer>
+        <p>このツールは現在テスト開発中のものです。うまく動作しない可能性もございますので、あらかじめご了承ください。</p>
+        <p class="copyright">© 2025- toktaro</p>
+    </footer>
+</body>
+</html>
