@@ -18,7 +18,7 @@ This application allows you to easily view all the characters (glyphs) included 
 ## Features
 
 - **Font File Upload**: Upload fonts via drag & drop or file selection.
-- **Glyph Display**: Displays all glyphs contained in the font.
+- **Glyph Display**: Displays all glyphs contained in the font (excluding empty glyphs without outlines).
 - **Live Font Rendering**: Renders each glyph using the uploaded font itself.
 - **Copy to Clipboard**: Copies all characters as a single string to the clipboard.
 - **Download as Text**: Downloads the complete character list as a `.txt` file.
